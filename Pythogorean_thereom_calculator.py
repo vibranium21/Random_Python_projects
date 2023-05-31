@@ -1,10 +1,15 @@
+#Import the math module
 import math
+
+# Tell the computer how to pythogorean thereom
 def hypotenuse(legA, legB):
   hypotenuse_squared = legA**2+legB**2
   return(math.sqrt(hypotenuse_squared))
 def leg(legB, hypotenuse):
   leg_squared = hypotenuse**2 - legB**2
   return(math.sqrt(leg_squared))
+
+#Ask for the details of the equation
 side = input("Would you like to calculate the length of the hypotenuse, or a leg? Reply With 'leg' or 'hypotenuse')
 if side.lower == leg: 
   try:            
