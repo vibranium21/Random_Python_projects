@@ -1,3 +1,6 @@
+# Im just testing some pygame stuff
+
+
 import pygame
 
 pygame.init()
