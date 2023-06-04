@@ -17,7 +17,7 @@ if side.lower == leg:
     hypotenuse_length = float(input('What is the length of the hypotenuse?')
   except ValueError:
     print("Please answer with a number")
-  print(leg(length_other_leg , hypotenuse_length))
+  print(hypotenuse(length_other_leg , hypotenuse_length))
             
                            
 if side.lower == hypotenuse:
